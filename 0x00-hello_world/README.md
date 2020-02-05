@@ -1,2 +1,2 @@
-##FIRTS STEPS WITH C##\n
+##FIRTS STEPS WITH C## $\n
 Hello, world
