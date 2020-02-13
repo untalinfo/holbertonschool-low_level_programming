@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _isdigit - program that that determines if a character is uppercase`
+ * _isupper - program that that determines if a character is uppercase`
  * @c: check
  * Return: 1 if c is upper or 0 if otherwise
  */
