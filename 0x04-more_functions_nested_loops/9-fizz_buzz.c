@@ -6,7 +6,7 @@
  * and multiples 3 and 5 prints FizzBuzz
  * Returns: none.
  */
-void main(void)
+int main(void)
 {
 	int num;
 
@@ -24,4 +24,5 @@ void main(void)
 			printf(" ");
 	}
 	printf("\n");
+	return (0);
 }
