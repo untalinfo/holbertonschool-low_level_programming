@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * print_square - function that prints a square.
+  * print_triangle - function that prints a triangle.
   * @size: size number of square
   * Return: None.
   */
