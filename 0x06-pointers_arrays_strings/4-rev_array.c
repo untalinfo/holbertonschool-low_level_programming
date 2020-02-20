@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - function that reverse the content of an string.
- * @s1: pointer of the array s1
+ * @a: pointer of the array
  * @n: number of elements of the array
  * Return: 0
  */
