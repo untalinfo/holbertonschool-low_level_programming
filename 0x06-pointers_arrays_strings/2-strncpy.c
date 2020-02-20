@@ -2,9 +2,9 @@
 
 /**
  * _strncpy - function that copies a string
- * @dest:
- * @src:
- * @n:
+ * @dest: destine
+ * @src: source
+ * @n: bytes
  * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
