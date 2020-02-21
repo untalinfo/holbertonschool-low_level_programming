@@ -9,12 +9,12 @@
 char *rot13(char *s)
 {
 	int i, j;
-	char alpha[] = "aAeEoOtTlL";
-	char replace[] = "4433007711";
+	char alpha[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char replace[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (j = 0; j <= 52; j++)
 		{
 			if (alpha[j] == s[i])
 			{
