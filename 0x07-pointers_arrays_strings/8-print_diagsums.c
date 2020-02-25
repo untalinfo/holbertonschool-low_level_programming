@@ -14,10 +14,10 @@ void print_diagsums(int *a, int size)
 	int sum = 0;
 
 	for (i = 0; i < size; i++)
-		sum =
+		sum = sum + (a[i * (size + 1)]);
 	printf("%d, ", sum);
 	sum = 0;
 	for (i = 0; i < size; i++)
-		sum =
+		sum = sum + (a[(i + 1) * (size - 1)]);
 	printf("%d\n", sum);
 }
