@@ -4,7 +4,7 @@
 /**
  * create_array - prints buffer in hexa
  * @size: the size of the memory to print
- * @size: character inicial
+ * @c: character inicial
  *
  * Return: array
  */
@@ -19,7 +19,7 @@ char *create_array(unsigned int size, char c)
 	p = malloc(sizeof(char) * size);
 	while (i < size)
 	{
-		*(p + i ) = c;
+		*(p + i) = c;
 		i++;
 	}
 	return (p);
