@@ -10,7 +10,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int i = 0, j = 0, a = 0, b = 0, m = 0;
 	char *p;
- 
+
 	if ((s1 == NULL) && (s2 == NULL))
 	{
 		s1 = "";
