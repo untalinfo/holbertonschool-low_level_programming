@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _calloc - function that allocates memory for an array
- * @nmenb: number of memory spaces
+ * @nmemb: number of memory spaces
  * @size: size of nmenb
  * Return: pointer to allocate spaces or NULL
  */
@@ -12,7 +12,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *p;
 
 	if (nmemb <= 0)
-		 return (NULL);
+		return (NULL);
 	if (size <= 0)
 		return (NULL);
 
