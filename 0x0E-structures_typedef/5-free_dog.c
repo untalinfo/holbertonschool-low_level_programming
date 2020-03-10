@@ -4,8 +4,8 @@
 
 /**
  * free_dog - function that frees dogs
- * @d: 
- * 
+ * @d: parametro d
+ *
  * Return: None
  */
 void free_dog(dog_t *d)
@@ -15,5 +15,5 @@ void free_dog(dog_t *d)
 		free(d->name);
 		free(d->owner);
 		free(d);
-	}	
+	}
 }
