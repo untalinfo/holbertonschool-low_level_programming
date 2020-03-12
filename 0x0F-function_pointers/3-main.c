@@ -24,10 +24,10 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 	f = get_op_func(argv[2]);
-	if (f == 0)
+	if (f == NULL)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
