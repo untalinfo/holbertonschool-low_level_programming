@@ -40,7 +40,7 @@ void p_string(va_list list)
 
 	s = va_arg(list, char *);
 	if (s == NULL)
-		printf("(nil)");
+		s = "(nil)";
 	printf("%s", s);
 }
 /**
