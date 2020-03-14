@@ -7,7 +7,7 @@
  * @list: list of elements of array
  * Return: None
  */
-static void p_char(va_list list)
+void p_char(va_list list)
 {
 	printf("%c", va_arg(list, int));
 }
@@ -16,7 +16,7 @@ static void p_char(va_list list)
  * @list: list of elements of array
  * Return: None
  */
-static void p_integer(va_list list)
+void p_integer(va_list list)
 {
 	printf("%d", va_arg(list, int));
 }
@@ -25,7 +25,7 @@ static void p_integer(va_list list)
  * @list: list of elements of array
  * Return: None
  */
-static void p_float(va_list list)
+void p_float(va_list list)
 {
 	 printf("%f", va_arg(list, double));
 }
@@ -34,15 +34,14 @@ static void p_float(va_list list)
  * @list: list of elements of array
  * Return: None
  */
-static void p_string(va_list list)
+void p_string(va_list list)
 {
 	char *s;
 
 	s = va_arg(list, char *);
-	if (s != NULL)
-		printf("%s", s);
-	else
-	printf("(nil)");
+	if (s == NULL)
+		printf("(nil)");
+	printf("%s", s);
 }
 /**
  * print_all - function that prints anything
