@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * free_lists - function that frees a list_t list
- * head: pointer to firts node
- * 
+ * free_list - function that frees a list_t list
+ * @head: pointer to firts node
+ *
  * Return: none
  */
 void free_list(list_t *head)
