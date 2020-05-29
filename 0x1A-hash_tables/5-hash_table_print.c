@@ -9,7 +9,7 @@ void hash_table_print(const hash_table_t *ht)
 	unsigned int index = 0;
 	char dict[1024] = "";
 	int count = 0;
-	hash_node_t *tmp;
+	hash_node_t *tmp = NULL;
 
 	if (ht == NULL)
 		return;
