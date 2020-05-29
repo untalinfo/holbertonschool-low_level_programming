@@ -7,7 +7,7 @@
 void hash_table_delete(hash_table_t *ht)
 {
 	hash_node_t *tmp = NULL, *tmp2 = NULL;
-    unsigned int index = 0;
+	unsigned int index = 0;
 
 	if (ht && ht->array)
 	{
@@ -21,8 +21,8 @@ void hash_table_delete(hash_table_t *ht)
 				free(tmp->value);
 				free(tmp);
 				tmp = tmp2;
-			}
-            index++;
+				}
+				index++;
 		}
 		free(ht->array);
 		free(ht);
