@@ -1,0 +1,6 @@
+#This is a MakeFile compiler
+all: program
+
+#execute
+program:
+	gcc main.c holberton.c -o holberton

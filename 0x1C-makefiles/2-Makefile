@@ -1,0 +1,13 @@
+#This is a MakeFile compiler
+
+#variables
+CC = gcc
+SRC = main.c holberton.c 
+OBJ = $(SRC:.c=.o)
+NAME = holberton
+
+all: program
+
+#execute
+program: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)

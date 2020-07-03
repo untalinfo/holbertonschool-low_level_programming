@@ -1,0 +1,9 @@
+#This is a MakeFile compiler
+CC = gcc
+SRC = main.c holberton.c 
+
+all: program
+
+#execute
+program: $(SRC)
+	$(CC) $(SRC) -o holberton
