@@ -26,7 +26,7 @@ int binary_search(int *array, size_t size, int value)
 			if (i == rigth)
 				printf("%i\n", array[i]);
 			else
-				printf("%i ", array[i]);
+				printf("%i, ", array[i]);
 
 		if (array[m] == value)
 			return (m);
